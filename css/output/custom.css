@@ -1,0 +1,74 @@
+@import url("./typography.scss");
+html {
+  font-family: Ubuntu, sans-serif;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+}
+
+.auth-section {
+  width: 100%;
+  max-width: 26rem;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 7px;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.auth-section * {
+  transition: all 0.15s ease-out;
+}
+.auth-section__header {
+  background-color: #e2e8f0;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.auth-section__heading {
+  padding: 1rem;
+  color: #ec4899;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.auth-section__form {
+  padding-inline: 2.5rem;
+  padding-block: 0 2rem;
+}
+.auth-section__form button {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 7px;
+  border-radius: 0.2rem;
+  background-color: #ec4899;
+  padding: 0.5rem 1rem;
+  color: white;
+  font: inherit;
+  font-weight: bold;
+}
+.auth-section__form button:hover {
+  background-color: #fbcfe8;
+  color: #be185d;
+}
+
+.auth-section__form__input label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+}
+.auth-section__form__input input {
+  width: 100%;
+  margin-bottom: 1.2rem;
+  outline: 0.1rem solid #64748b;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  font: inherit;
+}
+.auth-section__form__input input:focus {
+  outline-color: #ec4899;
+}
+
+/*# sourceMappingURL=custom.css.map */
